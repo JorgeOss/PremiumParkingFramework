@@ -68,7 +68,6 @@ public class DashboardPage {
 		NextMonth.click();
 		PickADate.click();
 		Thread.sleep(1000);
-
 	}
 
 	public void customerName() {
@@ -92,6 +91,5 @@ public class DashboardPage {
 		WebDriverWait wait = new WebDriverWait(driver, 20);
 		wait.until(ExpectedConditions.elementToBeClickable(SignOut));
 		SignOut.click();
-
 	}
 }

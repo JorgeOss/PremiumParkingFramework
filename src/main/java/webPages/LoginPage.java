@@ -12,7 +12,7 @@ public class LoginPage {
 		this.driver = driver;
 	}
 
-//storing the login's web elements
+//storing the login's Web Elements
 
 	@FindBy(how = How.XPATH, using = "//button[@class='styled__StyledButton-sc-1ejttgx-0 jTYses']")
 	WebElement SignInButton;
@@ -23,8 +23,8 @@ public class LoginPage {
 	@FindBy(how = How.XPATH, using = "//input[@name='password']")
 	WebElement Password;
 
-//Encapsulating my WebElements ready to be call them from loginTest
-
+//Encapsulating my Web Elements ready to be call them from loginTest
+ 
 	public void clickSignIng() {
 		SignInButton.click();
 	}
@@ -32,13 +32,11 @@ public class LoginPage {
 	public void enterUserName() throws InterruptedException {
 		UserName.sendKeys("jorge@pp.com");
 		UserName.submit();
-
 	}
 
 	public void enterPassword() throws InterruptedException {
 		Password.sendKeys("valet1");
 		Password.submit();
-
 	}
 
 }
