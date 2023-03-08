@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.demo.premiumparking.AppTest" time="0.002" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="testPages.LoginTest" time="13.075" errors="0" skipped="0">
   <properties>
     <property name="jansi.mode" value="strip"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -28,7 +28,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\jorge\PremiumParkingFramework\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf16153810450876686660.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\jorge\PremiumParkingFramework\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4169977111713176596.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files (x86)/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/Program Files (x86)/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files (x86)\Maven\apache-maven-3.6.1\bin;C:\Program Files\dotnet\;C:\Users\jorge\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -62,5 +62,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.demo.premiumparking.AppTest" name="testApp" time="0.002"/>
+  <testcase classname="testPages.LoginTest" name="SignIn" time="13.075"/>
 </testsuite>

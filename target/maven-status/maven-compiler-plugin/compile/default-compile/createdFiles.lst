@@ -1,1 +1,3 @@
-com\demo\premiumparking\App.class
+util\BrowserFactory.class
+webPages\DashboardPage.class
+webPages\LoginPage.class
