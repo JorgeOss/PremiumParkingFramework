@@ -35,7 +35,7 @@ public class LoginPage {
 	}
 
 	public void enterPassword() throws InterruptedException {
-		Password.sendKeys("valet1");
+		Password.sendKeys("valet");
 		Password.submit();
 	}
 
