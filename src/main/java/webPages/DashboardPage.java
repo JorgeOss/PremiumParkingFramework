@@ -63,12 +63,12 @@ public class DashboardPage {
 		PlateNumber.sendKeys("743FEA");
 	}
 
-	public void pickADate() throws InterruptedException {
-		EndDate.click();
-		NextMonth.click();
-		PickADate.click();
-		Thread.sleep(1000);
-	}
+//	public void pickADate() throws InterruptedException {
+//		EndDate.click();
+//		NextMonth.click();
+//		PickADate.click();
+//		Thread.sleep(1000);
+//	}
 
 	public void customerName() {
 		CustomerName.sendKeys("Ashley Morgan");
