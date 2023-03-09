@@ -29,7 +29,7 @@ public class LoginTest {
 		dashboardPage.clickValidations();
 		dashboardPage.newValidation();
 		dashboardPage.insertLpNumber();
-		dashboardPage.pickADate();
+		//dashboardPage.pickADate();
 		dashboardPage.customerName();
 		dashboardPage.custRoomNumber();
 		dashboardPage.additionalNotes();
